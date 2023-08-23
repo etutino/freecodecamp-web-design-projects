@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+  <body>
+    <h1 id="title">Runner Survey</h1>
+    <p id="description">This survey is to ask the runners who participated in our 2022 event which types of events you would like to participate in for the future.
+    <form id="survey-form">
+      <fieldset>
+      <h2>Runner Info</h2>
+      <label id="name-label">Please enter your full name <input id="name" type="text" required placeholder="John Smith" class="enter">
+      <label id="email-label">Please enter your email <input id="email" type="email" required placeholder="jsmith@gmail.com">
+      <label id="number-label">Please enter your age<input id="number" type="number" min="12" max="120" placeholder="40">
+      <label>Was this your first time running this event? 
+      <input id="first-time" name="first-time" type="checkbox" value="yes">
+      <label>Have you done this event more than once? 
+      <input id="n-time" name="n-time" type="checkbox" value="yes">
+
+      <label>Which event did you participate in? 
+      <select id="dropdown" name="dropdown">
+          <option value="">(select one)</option>
+          <option value="5k">5k</option>
+          <option value="10k">10k</option>
+          <option value="Half marathon">Half marathon</option>
+          <option value=" Marathon">Marathon</option>
+  </select>
+      </fieldset>
+<fieldset>
+      <h2>Race Feedback</h2>
+<label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Friend/family</option>
+            <option value="2">Social media</option>
+            <option value="3">Another race</option>
+            <option value="4">Other</option>
+          </select>
+
+<label for="enjoy">Did you enjoy the event?
+    <br></br>
+    <label class="yes-no"><input id="yes" type="radio" name="yes-no" value="yes" checked class="inline"> Yes</label>
+    <label class="yes-no"><input id="no" type="radio" name="yes-no" value="no" checked class="inline"> No</label>
+        </label>
+
+<label for="enjoy">Would you be interested in a 50k event?
+    <br></br>
+    <label class="yes-no"><input id="yes" type="radio" name="yes-no" value="yes" checked class="inline"> Yes</label>
+    <label class="yes-no"><input id="no" type="radio" name="yes-no" value="no" checked class="inline"> No</label>
+        </label>
+
+<label for="enjoy">Would you be interested in an obstacle course event?
+        <br></br>
+          <label class="yes-no"><input id="yes" type="radio" name="yes-no" value="yes" checked class="inline"> Yes</label>
+            <label class="yes-no"><input id="no" type="radio" name="yes-no" value="no" checked class="inline"> No</label>
+        </label>
+
+<label for="comment">Please provide any comments for things you would like to be improved
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="I would like candy corn next time..."></textarea>
+        </label>
+      </fieldset>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+    </body>
+  </html>
