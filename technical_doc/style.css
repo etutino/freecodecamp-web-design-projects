@@ -1,0 +1,101 @@
+body {
+  font-family: Optima, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+  padding-right:10px;
+}
+
+.advice {
+background-image:linear-gradient(to left, #DDF5F3, #ECB3F2);
+font-family: FreeMono, monospace;
+text-align: center;
+}
+
+header > h1 {
+background-image:linear-gradient(to left, #C1F8F3, #EAA2F2);
+text-align: center;
+font-family: FreeMono, monospace;
+}
+
+.h2 {
+background-image:linear-gradient(to left, #DDF5F3, #ECB3F2);
+text-align: center;
+font-family: FreeMono, monospace;
+font-size: 22px;
+font-weight: bold;
+margin-top: 20px;
+}
+
+a {
+  color: #EAA2F2;
+}
+
+a:hover {
+  color: #C1F8F3;
+}
+
+.star {
+  font-size: 23px;
+  color: #EAA2F2
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: center;
+}
+
+p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list {
+  margin-bottom: 0;
+}
+
+#navbar {
+  background-color: #F5ECF5;
+  text-align: center;
+  font-family: FreeMono, monospace;
+
+}
+
+#navbar {
+background-image:linear-gradient(to left, #C1F8F3, #EAA2F2);
+text-align: center;
+font-family: FreeMono, monospace;
+}
+
+#navbar > a {
+text-align: center;
+font-family: FreeMono, monospace;
+color: black;
+}
+
+#navbar > a:hover {
+color: white;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.light {
+background-image:linear-gradient(to left, #F0FCFB, #F7EFF8);
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  body {
+    background-color: white;
+  }
+}
+
+.center {
+  text-align: center;
+}
