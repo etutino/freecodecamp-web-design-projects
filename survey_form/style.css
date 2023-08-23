@@ -1,0 +1,95 @@
+body {
+background-color: BFE7DB;
+  font-family: Tahoma;
+}
+
+h1 {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: Tahoma;
+  letter-spacing: 5px;
+  color: #639788;
+}
+
+h2 {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Tahoma;
+  color: #639788;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  margin-left:10%;
+  margin-right:10%;
+  padding-bottom: 10px;
+  font-family: Tahoma;
+}
+
+textarea, select, input {
+  background-color: #639788;
+  border: 1px solid #0a0a23;
+  color: #DDF5EE;
+  display: block;
+  font-family: Tahoma;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+button {
+background-color: #639788;
+  border: 1px solid #0a0a23;
+  color: #DDF5EE;
+    font-family: Tahoma;
+  margin-top: 15px;
+}
+
+::placeholder {
+  color: #DDF5EE;
+  font-family: Tahoma
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  padding: 10px 10px;
+  border: 1px solid #639788;
+  margin-top: 15px;
+}
+
+input[type=checkbox]{
+  width: 1em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+
+.yes-no {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+br {
+    line-height: 0.4em;
+}
